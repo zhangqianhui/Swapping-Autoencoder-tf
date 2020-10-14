@@ -1,8 +1,13 @@
 # swapping-autoencoder-tf
-The unofficial  tensorflow implementation of Swapping Autoencoder for Deep Image Manipulation
+The unofficial  tensorflow implementation of Swapping Autoencoder for Deep Image Manipulation. Pdf linking: [Swapping AutoEncoder](https://arxiv.org/abs/2007.00653)
 
 ![](img/model.png)
 
+# Differences
+
+This implementation has three main differences with original paper.
+(1) trained on 256x256 images, not 512 
+(2) Use AdaIn, not modulation/demodulation layer. We will update it in the next few days.
 
 ## Dependencies
 
@@ -56,7 +61,7 @@ For testing
 bash scripts/test_log10_10_1.sh
 ```
 
-## Experiment Result 
+## Experiment Result with 50000 iterations
 
 Training results on CelebAHQ. 1st-4th colums are structure input, texture input, reconstruction, swapped
 
