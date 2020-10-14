@@ -38,7 +38,7 @@ cd swapping-autoencoder-tf
 
 - Download the CelebAHQ dataset
 
-  Download the tar of CelebAGaze dataset from [Google Driver Linking](https://github.com/switchablenorms/CelebAMask-HQ).
+  Download the tar of CelebAHQ dataset from [Google Driver Linking](https://github.com/switchablenorms/CelebAMask-HQ).
     
 - Train the model using command line with python
 
