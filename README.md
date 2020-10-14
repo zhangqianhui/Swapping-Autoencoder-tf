@@ -1,4 +1,4 @@
-# swapping-autoencoder-tf
+# Swapping-Autoencoder-tf
 The unofficial  tensorflow implementation of Swapping Autoencoder for Deep Image Manipulation. Pdf linking: [Swapping AutoEncoder](https://arxiv.org/abs/2007.00653)
 
 ![](img/model.png)
@@ -31,8 +31,8 @@ Other packages installed by pip.
 
 - Clone this repo:
 ```bash
-git clone https://github.com/zhangqianhui/swapping-autoencoder-tf
-cd swapping-autoencoder-tf
+git clone https://github.com/zhangqianhui/Swapping-Autoencoder-tf
+cd Swapping-Autoencoder-tf
 
 ```
 
