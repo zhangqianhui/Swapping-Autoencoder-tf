@@ -31,16 +31,8 @@ cd swapping-autoencoder-tf
 
 - Download the CelebAHQ dataset
 
-  Download the tar of CelebAGaze dataset from [Google Driver Linking](https://drive.google.com/file/d/1_6f3wT72mQpu5S2K_iTkfkiXeeBcD3wn/view?usp=sharing).
-  
-  ```bash
-  cd your_path
-  tar -xvf CelebAGaze.tar
-  ```
-  
-  Please edit the options.py and change your dataset path
-  
-
+  Download the tar of CelebAGaze dataset from [Google Driver Linking](https://github.com/switchablenorms/CelebAMask-HQ).
+    
 - Train the model using command line with python
 
 ```bash
@@ -66,11 +58,11 @@ bash scripts/test_log10_10_1.sh
 
 ## Experiment Result 
 
-### Training results on CelebAHQ. 1st-4th colums are structure input, texture input, reconstruction, swapped
+Training results on CelebAHQ. 1st-4th colums are structure input, texture input, reconstruction, swapped
 
 ![](img/train.jpg)
 
-### Testing results on CelebAHQ. 1st-4th colums are structure input, texture input, reconstruction, swapped
+Testing results on CelebAHQ. 1st-4th colums are structure input, texture input, reconstruction, swapped
 
 ![](img/test.jpg)
 
