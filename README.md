@@ -6,8 +6,10 @@ The unofficial  tensorflow implementation of Swapping Autoencoder for Deep Image
 # Differences
 
 This implementation has three main differences with original paper.
-(1) trained on 256x256 images, not 512 
-(2) Use AdaIn, not modulation/demodulation layer. We will update it in the next few days.
+
+- trained on 256x256 images, not 512 
+
+- Use AdaIn, not modulation/demodulation layer. We will update it in the next few days.
 
 ## Dependencies
 
